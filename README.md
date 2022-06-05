@@ -2,7 +2,7 @@
 const sum = 10 + 10;
 
 const myArray = [18, 64, 99];
-// Only change code below this line
+
 myArray[0] =45
 
 function testNotEqual(val) {
@@ -39,3 +39,18 @@ function golfScore(par, strokes) {
   } 
  }
 golfScore(5, 4);
+
+                   function multiply(arr, n) {
+                      if (n <= 0) {
+                        return 1;                                             //Recursion
+                      } else {
+                        return multiply(arr, n - 1) * arr[n - 1];
+                      }
+                    }
+                    
+                                                arr.hasOwnProperty(prop)
+
+
+                                                Math.floor(Math.random() * (max - min + 1)) + min
+
+
