@@ -52,5 +52,9 @@ golfScore(5, 4);
 
 
                                                 Math.floor(Math.random() * (max - min + 1)) + min
+                                                
+                                                Object.freeze(obj)              //changing the object will be rejected
+                                                
+                                     function howMany(...args) {}                //Буквально это значит: «собери оставшиеся параметры и положи их в массив».
 
 
