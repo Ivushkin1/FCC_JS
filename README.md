@@ -56,5 +56,14 @@ golfScore(5, 4);
                                                 Object.freeze(obj)              //changing the object will be rejected
                                                 
                                      function howMany(...args) {}                //Буквально это значит: «собери оставшиеся параметры и положи их в массив».
+                                     
+ const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,                                                            //Деструктуризация объекта
+  tomorrow: 80
+};
+const {today, tomorrow} = HIGH_TEMPERATURES;
+
+
 
 
