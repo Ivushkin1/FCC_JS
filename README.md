@@ -65,5 +65,12 @@ golfScore(5, 4);
 const {today, tomorrow} = HIGH_TEMPERATURES;
 
 
+const createPerson = (name, age, gender) => ({                //вернет обьект {name:name, age:age....}
+ name, age, gender});
+ 
+ 
+ 
+
+
 
 
